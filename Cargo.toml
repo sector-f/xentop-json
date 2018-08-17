@@ -1,0 +1,12 @@
+[package]
+name = "xentop-json"
+version = "0.1.0"
+authors = ["Adam <sector-f@users.noreply.github.com>"]
+
+[dependencies]
+xenstat = { git = "https://github.com/sector-f/xenstat-rs.git" }
+serde = "1.0.71"
+serde_derive = "1.0.71"
+serde_json = "1.0.24"
+clap = "2.32.0"
+# prettytable-rs = "0.7.0"
